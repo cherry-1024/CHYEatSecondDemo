@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		4DCFC5501EE546D1009378CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCFC54F1EE546D1009378CF /* main.m */; };
 		4DCFC5531EE546D1009378CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCFC5521EE546D1009378CF /* AppDelegate.m */; };
-		4DCFC5561EE546D1009378CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCFC5551EE546D1009378CF /* ViewController.m */; };
-		4DCFC5591EE546D1009378CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DCFC5571EE546D1009378CF /* Main.storyboard */; };
-		4DCFC55B1EE546D1009378CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DCFC55A1EE546D1009378CF /* Assets.xcassets */; };
-		4DCFC55E1EE546D1009378CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DCFC55C1EE546D1009378CF /* LaunchScreen.storyboard */; };
 		4DCFC5691EE546D1009378CF /* CHYEatSecondDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCFC5681EE546D1009378CF /* CHYEatSecondDemoTests.m */; };
 		4DCFC5741EE546D1009378CF /* CHYEatSecondDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCFC5731EE546D1009378CF /* CHYEatSecondDemoUITests.m */; };
+		4DD15DDA1EE8DE590079B299 /* CHYKindView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD15DD91EE8DE590079B299 /* CHYKindView.m */; };
+		4DD15E441EE947C10079B299 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD15E421EE947C10079B299 /* LaunchScreen.storyboard */; };
+		4DD15E451EE947C10079B299 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD15E431EE947C10079B299 /* Main.storyboard */; };
+		4DE43F431EE7D17700688FC7 /* CHYActivityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE43F421EE7D17700688FC7 /* CHYActivityCell.m */; };
+		4DE43F461EE7D1B600688FC7 /* CHYSortCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE43F451EE7D1B600688FC7 /* CHYSortCell.m */; };
+		4DE43F491EE7D1DA00688FC7 /* CHYActivityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE43F481EE7D1DA00688FC7 /* CHYActivityModel.m */; };
+		4DE947941EE63BEA00007B29 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DE947931EE63BEA00007B29 /* images.xcassets */; };
+		4DE947AF1EE69C2B00007B29 /* CHYSallerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE947AE1EE69C2B00007B29 /* CHYSallerModel.m */; };
+		4DE947B21EE69C5E00007B29 /* CHYSallerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE947B11EE69C5E00007B29 /* CHYSallerCell.m */; };
+		4DE947B81EE6AD7700007B29 /* CHYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE947B71EE6AD7700007B29 /* CHYHomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +45,6 @@
 		4DCFC54F1EE546D1009378CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4DCFC5511EE546D1009378CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4DCFC5521EE546D1009378CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4DCFC5541EE546D1009378CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4DCFC5551EE546D1009378CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4DCFC5581EE546D1009378CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4DCFC55A1EE546D1009378CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4DCFC55D1EE546D1009378CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DCFC55F1EE546D1009378CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DCFC5641EE546D1009378CF /* CHYEatSecondDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHYEatSecondDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DCFC5681EE546D1009378CF /* CHYEatSecondDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHYEatSecondDemoTests.m; sourceTree = "<group>"; };
@@ -51,6 +52,23 @@
 		4DCFC56F1EE546D1009378CF /* CHYEatSecondDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHYEatSecondDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DCFC5731EE546D1009378CF /* CHYEatSecondDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHYEatSecondDemoUITests.m; sourceTree = "<group>"; };
 		4DCFC5751EE546D1009378CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DD15DD81EE8DE590079B299 /* CHYKindView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHYKindView.h; sourceTree = "<group>"; };
+		4DD15DD91EE8DE590079B299 /* CHYKindView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHYKindView.m; sourceTree = "<group>"; };
+		4DD15E421EE947C10079B299 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DD15E431EE947C10079B299 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4DE43F411EE7D17700688FC7 /* CHYActivityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHYActivityCell.h; sourceTree = "<group>"; };
+		4DE43F421EE7D17700688FC7 /* CHYActivityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHYActivityCell.m; sourceTree = "<group>"; };
+		4DE43F441EE7D1B600688FC7 /* CHYSortCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHYSortCell.h; sourceTree = "<group>"; };
+		4DE43F451EE7D1B600688FC7 /* CHYSortCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHYSortCell.m; sourceTree = "<group>"; };
+		4DE43F471EE7D1DA00688FC7 /* CHYActivityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHYActivityModel.h; sourceTree = "<group>"; };
+		4DE43F481EE7D1DA00688FC7 /* CHYActivityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHYActivityModel.m; sourceTree = "<group>"; };
+		4DE947931EE63BEA00007B29 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = images.xcassets; path = CHYEatSecondDemo/images.xcassets; sourceTree = "<group>"; };
+		4DE947AD1EE69C2B00007B29 /* CHYSallerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHYSallerModel.h; sourceTree = "<group>"; };
+		4DE947AE1EE69C2B00007B29 /* CHYSallerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHYSallerModel.m; sourceTree = "<group>"; };
+		4DE947B01EE69C5E00007B29 /* CHYSallerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHYSallerCell.h; sourceTree = "<group>"; };
+		4DE947B11EE69C5E00007B29 /* CHYSallerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHYSallerCell.m; sourceTree = "<group>"; };
+		4DE947B61EE6AD7700007B29 /* CHYHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHYHomeViewController.h; sourceTree = "<group>"; };
+		4DE947B71EE6AD7700007B29 /* CHYHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHYHomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				4DCFC54D1EE546D1009378CF /* CHYEatSecondDemo */,
+				4DE947931EE63BEA00007B29 /* images.xcassets */,
 				4DCFC5671EE546D1009378CF /* CHYEatSecondDemoTests */,
 				4DCFC5721EE546D1009378CF /* CHYEatSecondDemoUITests */,
 				4DCFC54C1EE546D1009378CF /* Products */,
@@ -101,14 +120,9 @@
 		4DCFC54D1EE546D1009378CF /* CHYEatSecondDemo */ = {
 			isa = PBXGroup;
 			children = (
-				4DCFC5511EE546D1009378CF /* AppDelegate.h */,
-				4DCFC5521EE546D1009378CF /* AppDelegate.m */,
-				4DCFC5541EE546D1009378CF /* ViewController.h */,
-				4DCFC5551EE546D1009378CF /* ViewController.m */,
-				4DCFC5571EE546D1009378CF /* Main.storyboard */,
-				4DCFC55A1EE546D1009378CF /* Assets.xcassets */,
-				4DCFC55C1EE546D1009378CF /* LaunchScreen.storyboard */,
-				4DCFC55F1EE546D1009378CF /* Info.plist */,
+				4DE947A01EE6411500007B29 /* Model */,
+				4DE9479F1EE640F700007B29 /* Views */,
+				4DE9479B1EE6405900007B29 /* Controller */,
 				4DCFC54E1EE546D1009378CF /* Supporting Files */,
 			);
 			path = CHYEatSecondDemo;
@@ -117,6 +131,11 @@
 		4DCFC54E1EE546D1009378CF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4DCFC5511EE546D1009378CF /* AppDelegate.h */,
+				4DCFC5521EE546D1009378CF /* AppDelegate.m */,
+				4DD15E421EE947C10079B299 /* LaunchScreen.storyboard */,
+				4DD15E431EE947C10079B299 /* Main.storyboard */,
+				4DCFC55F1EE546D1009378CF /* Info.plist */,
 				4DCFC54F1EE546D1009378CF /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +157,41 @@
 				4DCFC5751EE546D1009378CF /* Info.plist */,
 			);
 			path = CHYEatSecondDemoUITests;
+			sourceTree = "<group>";
+		};
+		4DE9479B1EE6405900007B29 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4DE947B61EE6AD7700007B29 /* CHYHomeViewController.h */,
+				4DE947B71EE6AD7700007B29 /* CHYHomeViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4DE9479F1EE640F700007B29 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4DE947B01EE69C5E00007B29 /* CHYSallerCell.h */,
+				4DE947B11EE69C5E00007B29 /* CHYSallerCell.m */,
+				4DE43F411EE7D17700688FC7 /* CHYActivityCell.h */,
+				4DE43F421EE7D17700688FC7 /* CHYActivityCell.m */,
+				4DE43F441EE7D1B600688FC7 /* CHYSortCell.h */,
+				4DE43F451EE7D1B600688FC7 /* CHYSortCell.m */,
+				4DD15DD81EE8DE590079B299 /* CHYKindView.h */,
+				4DD15DD91EE8DE590079B299 /* CHYKindView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4DE947A01EE6411500007B29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4DE947AD1EE69C2B00007B29 /* CHYSallerModel.h */,
+				4DE947AE1EE69C2B00007B29 /* CHYSallerModel.m */,
+				4DE43F471EE7D1DA00688FC7 /* CHYActivityModel.h */,
+				4DE43F481EE7D1DA00688FC7 /* CHYActivityModel.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +300,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DCFC55E1EE546D1009378CF /* LaunchScreen.storyboard in Resources */,
-				4DCFC55B1EE546D1009378CF /* Assets.xcassets in Resources */,
-				4DCFC5591EE546D1009378CF /* Main.storyboard in Resources */,
+				4DD15E451EE947C10079B299 /* Main.storyboard in Resources */,
+				4DE947941EE63BEA00007B29 /* images.xcassets in Resources */,
+				4DD15E441EE947C10079B299 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +327,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DCFC5561EE546D1009378CF /* ViewController.m in Sources */,
+				4DE947B81EE6AD7700007B29 /* CHYHomeViewController.m in Sources */,
+				4DE43F491EE7D1DA00688FC7 /* CHYActivityModel.m in Sources */,
+				4DE947B21EE69C5E00007B29 /* CHYSallerCell.m in Sources */,
+				4DE947AF1EE69C2B00007B29 /* CHYSallerModel.m in Sources */,
+				4DE43F461EE7D1B600688FC7 /* CHYSortCell.m in Sources */,
+				4DD15DDA1EE8DE590079B299 /* CHYKindView.m in Sources */,
+				4DE43F431EE7D17700688FC7 /* CHYActivityCell.m in Sources */,
 				4DCFC5531EE546D1009378CF /* AppDelegate.m in Sources */,
 				4DCFC5501EE546D1009378CF /* main.m in Sources */,
 			);
@@ -309,25 +369,6 @@
 			targetProxy = 4DCFC5701EE546D1009378CF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		4DCFC5571EE546D1009378CF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4DCFC5581EE546D1009378CF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4DCFC55C1EE546D1009378CF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4DCFC55D1EE546D1009378CF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4DCFC5761EE546D1009378CF /* Debug */ = {
@@ -507,6 +548,7 @@
 				4DCFC57A1EE546D1009378CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DCFC57B1EE546D1009378CF /* Build configuration list for PBXNativeTarget "CHYEatSecondDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +557,7 @@
 				4DCFC57D1EE546D1009378CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DCFC57E1EE546D1009378CF /* Build configuration list for PBXNativeTarget "CHYEatSecondDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +566,7 @@
 				4DCFC5801EE546D1009378CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
